@@ -220,7 +220,7 @@ document.querySelectorAll('a[href^="#"]').forEach(a => {
 
   let cur = 0, busy = false;
   const total    = cards.length;
-  const DELAY    = 3000;
+  const DELAY    = 5000;
   let autoTimer  = null;
 
   // Build dots
